@@ -71,7 +71,7 @@ const Device = (props) => {
         <Grid item xs={9}>
           <Paper className={classes.paper} elevation={2}>
             <Card className={classes.root}>
-              <CardMedia className={classes.media} image="https://i.dlpng.com/static/png/6534793_preview.png" />
+              {/* <CardMedia className={classes.media} image="https://i.dlpng.com/static/png/6534793_preview.png" /> */}
               <CardContent>
                 <TableContainer>
                   <Table className={classes.table} aria-label="device table">
